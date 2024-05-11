@@ -1,0 +1,143 @@
+data['sex'].value_counts()
+print(data['species'].value_counts())
+
+## GROUP BY
+data.groupby(by=['species','sex']).describe().T
+data.groupby(by=['species','sex']).mean()
+data.groupby(by=['species','sex']).mean(numeric_only = True)
+
+data.groupby(by=['species' , 'sex']).aggregate(['min',np.mediam,max,np.mean]).T
+# indicar que funciones va a calcular sobre los conjuntos de dato
+
+
+## EDITAR VALORES
+tabla_reducida['sex'] = np.where(tabla_reducida['sex'] == 'Male', 'Macho','Hembra')
+
+
+#GRAFICO DE BARRAS
+plt.bar(especies.index, especies)
+plt.show()
+
+
+vuelos = sns.load_dataset('flighs')
+vuelos
+
+
+pivoteVuelos = vuelos.pivot('month', 'year', 'passengers')
+pivoteVuelos
+
+
+## Escala de color
+ mapa_calor = sns.heatmap(pivotVuelos, annot = True, fmt = 'd')
+
+
+
+
+##########
+import numpy as np
+import pandas as pd
+import seaborn as sns
+import statsmodels.api as sm
+
+auto = sns.load_dataset('mpg')
+auto.head(5)
+
+correlacion = auto.corr(numeric_only = True)
+correlacion.style.background_gradient(cmap = 'coolwarm')
+
+
+x = auto['weight']
+x = sm.add_constant(x)
+y = auto['mpg']
+resultado = sm.OLS(y,x).fit()
+resultado.summary()
+
+#### 
+ax1 = sns.regplot(data = auto , x = 'weight', y = 'mpg')
+ax1.set_xlabel('Peso')
+ax1.set_ylabel('Millas por galon')
+ax1.set_title('Relacion peso-mpg')
+ax1.plot();
+
+
+import matplotlib.pyplot as plt
+
+fig2, ax2 = plt.subplots(figszize(5,3))
+sns.boxplot(x = 'origin', y = 'mpg', data = auto, ax = ax2)
+
+####
+archivo = '../../DataSet/csv/RACE.csv'
+ferrari = pd.read_csv(archivo)
+
+
+##
+excel , menu datos, obtener datos, otras fuertes, desde la web,
+
+
+########
+!apr-get install ghostscrip linux
+Ghosscrip 
+!pip install 'camelot-py[base]'
+!pip install 'camelot-py[cv]' -q
+!pip install 'PyPDF2<3.0'
+
+## web
+!pip install bs4
+
+import requests
+from bs4 import BeautifulSoup
+
+## Enlace a la pagian
+url = ''
+
+response = requests.get(url)
+print('Status code', url, ':', response.status_code)
+
+soup = BeautifulSoup(response.text , 'html.parser')
+
+departamentos = soup.find('table',{'class':'wikitable'})
+soup = BeautifulSoup(response.text , 'html.parser')
+type(departamentos)
+departamentos = soup.find('table',{'class':'wikitable'})
+
+import pandas as pd
+dfDepto = pd.read_html(str(departamentos))
+
+
+------------------- 12/02/2024
+
+pip install 'camelot-py[base]'
+pip install 'caleto-py[cv]' -q
+pip install 'PyPDF2<3.0'
+
+
+## ruta = '../../DataSet/pdf/Analisis Anual 2018 ETAS.pdf'
+import camelot
+
+
+////////
+tabla = camelot.read_pdf(archivo, pages = '3')
+type(tabla)
+
+table[0].df
+table[0].df[0][2].split('\n')
+area = list(map(lambda area:area.strip(), table[0].df[0][2].split('\n')))
+area.extend(list(map(lambda area:area.strip(), table[0].df[0][3].split('\n'))))
+area
+
+casos2017 = [int(i.strip() for i in table[0].df[1][2].split('\n'))]
+casos2017.extend([int(i.strip() for i in table[0].df[1][3].split('\n'))])
+tasas2017 = [float(i.strip() for i in table[0].df[2][2].split('\n'))]
+tasas2017.extend([int(i.strip() for i in table[0].df[2][3].split('\n'))])
+
+
+casos2017
+
+
+etas = pd.DataFrame(area, columns = ['Area de Salud'])
+stas['casos 2017'] = casos2017
+s
+
+
+
+///////

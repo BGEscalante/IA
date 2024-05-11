@@ -1,0 +1,14 @@
+C:\Users\Usuario\documents\Ingenieria\Inteligencia Artificial\ejPerceptron\bin\Debug\net8.0\ejPerceptron.exe
+C:\Users\Usuario\documents\Ingenieria\Inteligencia Artificial\ejPerceptron\bin\Debug\net8.0\ejPerceptron.deps.json
+C:\Users\Usuario\documents\Ingenieria\Inteligencia Artificial\ejPerceptron\bin\Debug\net8.0\ejPerceptron.runtimeconfig.json
+C:\Users\Usuario\documents\Ingenieria\Inteligencia Artificial\ejPerceptron\bin\Debug\net8.0\ejPerceptron.dll
+C:\Users\Usuario\documents\Ingenieria\Inteligencia Artificial\ejPerceptron\bin\Debug\net8.0\ejPerceptron.pdb
+C:\Users\Usuario\documents\Ingenieria\Inteligencia Artificial\ejPerceptron\obj\Debug\net8.0\ejPerceptron.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\documents\Ingenieria\Inteligencia Artificial\ejPerceptron\obj\Debug\net8.0\ejPerceptron.AssemblyInfoInputs.cache
+C:\Users\Usuario\documents\Ingenieria\Inteligencia Artificial\ejPerceptron\obj\Debug\net8.0\ejPerceptron.AssemblyInfo.cs
+C:\Users\Usuario\documents\Ingenieria\Inteligencia Artificial\ejPerceptron\obj\Debug\net8.0\ejPerceptron.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\documents\Ingenieria\Inteligencia Artificial\ejPerceptron\obj\Debug\net8.0\ejPerceptron.dll
+C:\Users\Usuario\documents\Ingenieria\Inteligencia Artificial\ejPerceptron\obj\Debug\net8.0\refint\ejPerceptron.dll
+C:\Users\Usuario\documents\Ingenieria\Inteligencia Artificial\ejPerceptron\obj\Debug\net8.0\ejPerceptron.pdb
+C:\Users\Usuario\documents\Ingenieria\Inteligencia Artificial\ejPerceptron\obj\Debug\net8.0\ejPerceptron.genruntimeconfig.cache
+C:\Users\Usuario\documents\Ingenieria\Inteligencia Artificial\ejPerceptron\obj\Debug\net8.0\ref\ejPerceptron.dll
