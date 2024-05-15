@@ -1,0 +1,15 @@
+C:\Users\Usuario\Documents\Ingenieria\IA\perceptronXOR\bin\Debug\net8.0\perceptronXOR.exe
+C:\Users\Usuario\Documents\Ingenieria\IA\perceptronXOR\bin\Debug\net8.0\perceptronXOR.deps.json
+C:\Users\Usuario\Documents\Ingenieria\IA\perceptronXOR\bin\Debug\net8.0\perceptronXOR.runtimeconfig.json
+C:\Users\Usuario\Documents\Ingenieria\IA\perceptronXOR\bin\Debug\net8.0\perceptronXOR.dll
+C:\Users\Usuario\Documents\Ingenieria\IA\perceptronXOR\bin\Debug\net8.0\perceptronXOR.pdb
+C:\Users\Usuario\Documents\Ingenieria\IA\perceptronXOR\obj\Debug\net8.0\perceptronXOR.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Documents\Ingenieria\IA\perceptronXOR\obj\Debug\net8.0\perceptronXOR.AssemblyInfoInputs.cache
+C:\Users\Usuario\Documents\Ingenieria\IA\perceptronXOR\obj\Debug\net8.0\perceptronXOR.AssemblyInfo.cs
+C:\Users\Usuario\Documents\Ingenieria\IA\perceptronXOR\obj\Debug\net8.0\perceptronXOR.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Documents\Ingenieria\IA\perceptronXOR\obj\Debug\net8.0\perceptronXOR.sourcelink.json
+C:\Users\Usuario\Documents\Ingenieria\IA\perceptronXOR\obj\Debug\net8.0\perceptronXOR.dll
+C:\Users\Usuario\Documents\Ingenieria\IA\perceptronXOR\obj\Debug\net8.0\refint\perceptronXOR.dll
+C:\Users\Usuario\Documents\Ingenieria\IA\perceptronXOR\obj\Debug\net8.0\perceptronXOR.pdb
+C:\Users\Usuario\Documents\Ingenieria\IA\perceptronXOR\obj\Debug\net8.0\perceptronXOR.genruntimeconfig.cache
+C:\Users\Usuario\Documents\Ingenieria\IA\perceptronXOR\obj\Debug\net8.0\ref\perceptronXOR.dll
